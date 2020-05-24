@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_application_id" translatable="false">197879634637805</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb197879634637805</string>
+    <string name="text_info">Night Theme</string>
+</resources>

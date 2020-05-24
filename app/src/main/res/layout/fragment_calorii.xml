@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/desktopprogram">
+
+
+
+    <EditText
+        android:id="@+id/varsta"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:hint="Varsta"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:digits="0123456789"
+        />
+    <EditText
+        android:id="@+id/inaltime"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:hint="Inaltime"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="205dp"
+        android:digits="0123456789"
+        />
+
+    <EditText
+        android:id="@+id/greutate"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:hint="Greutate"
+        android:layout_marginTop="90dp"
+        android:layout_alignLeft="@id/varsta"
+        android:layout_alignStart="@+id/varsta"
+        android:digits="0123456789"
+        />
+
+    <Button
+        android:id="@+id/calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="Calculeaza"
+        android:onClick="calculare"/>
+
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sex:"
+        android:layout_marginTop="138.5dp"
+        android:textSize="17dp"
+        android:layout_alignLeft="@id/greutate"
+
+
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/activitate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activitate(ore/zi):"
+        android:textSize="17dp"
+        android:layout_marginTop="210dp"
+        android:layout_alignLeft="@id/sex"
+
+    />
+    <EditText
+        android:id="@+id/nrore"
+        android:layout_width="135dp"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/activitate"
+        android:layout_toRightOf="@+id/activitate"
+        android:layout_marginTop="200dp"
+        android:digits="0123456789"
+        />
+    <TextView
+        android:id="@+id/obiectiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obiectiv:"
+        android:layout_alignLeft="@id/activitate"
+        android:layout_marginTop="250dp"
+        android:textSize="17dp"
+        />
+
+ <RadioGroup
+     android:id="@+id/grupobiectiv"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_toEndOf="@+id/obiectiv"
+     android:layout_toRightOf="@+id/obiectiv"
+     android:layout_marginTop="246dp"
+     >
+     <RadioButton
+         android:id="@+id/masamusculara"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Masa Musculara"
+
+         />
+
+     <RadioButton
+         android:id="@+id/recompozitie"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Recompozitie"
+
+         />
+
+     <RadioButton
+         android:id="@+id/slabire"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Slabire"
+
+         />
+
+ </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/grupsex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/sex"
+        android:layout_toRightOf="@+id/sex"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="15dp"
+        >
+
+
+        <RadioButton
+            android:id="@+id/masculin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculin"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/feminin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminin"
+
+
+            />
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/ntextView"
+        android:layout_width="450dp"
+        android:layout_height="400dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="400dp"
+        />
+
+</RelativeLayout>

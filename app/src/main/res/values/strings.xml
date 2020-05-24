@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="click1">
+        <a href="https://www.youtube.com/watch?v=WpkX7DQLfVs">Aici</a>
+    </string>
+    <string name="click2">
+        <a href="https://www.youtube.com/watch?v=EVMzCQz-2Bc">Aici</a>
+    </string>
+    <string name="click3">
+        <a href="https://www.youtube.com/watch?v=IG_Mly-1wvg">Aici</a>
+    </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_application_id" translatable="false">197879634637805</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb197879634637805</string>
+    <string name="text_info">Light Theme</string>
+</resources>

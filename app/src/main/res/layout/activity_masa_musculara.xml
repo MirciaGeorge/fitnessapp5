@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/com_facebook_messenger_blue" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:text="Ziua 1:"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/blackv"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="85dp"
+        android:text="-Impins pentru piept din inclinat \n  (4 seturi, 10 repetari) \n-Impins pentru piept din orizantal \n  (4 seturi, 10 repetari)\n-Fluturari cu ganterele\n  (3 seturi, 12 repetari)\n-Impins deasupra capului\n  (4 seturi, 10 repetari)\n-Fluturari laterale\n  (3 seturi, 12 repetari)\n-Skull crusher\n  (4 seturi, 10 repetari)\n-Power Bombs\n  (3 seturi, 12 repetari)"
+        android:textSize="20sp"
+        android:textColor="@color/blackv"
+        />
+    <TextView
+        android:id="@+id/asda"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
+        android:text="Video cu executii:"
+        android:textSize="20sp"
+        android:layout_marginTop="430dp"
+        android:textColor="@color/blackv"
+        />
+    <TextView
+        android:id="@+id/click1"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:text="@string/click1"
+        android:textSize="20sp"
+        android:layout_toEndOf="@+id/asda"
+        android:layout_toRightOf="@+id/asda"
+        android:layout_marginTop="430dp"
+
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="460dp"
+        android:text="Ziua 2:"
+        android:textColor="@color/blackv"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="500dp"
+        android:text="-Ramat cu bara\n  (4 seturi, 10 repetari)\n-Tractiuni la helcometru cu priza larga\n  (4 seturi, 10 repetati)\n-Ramat la scripete\n  (3 seturi, 12 repetari)\n-Tractiuni la scripete cu priza ingusta\n  (3 seturi, 12 repetari)\n-Ridicari din umeri\n  (4 seturi, 12 repetari)\n-Flexii\n  (4 seturi, 10 repetari)\n-Ciocane\n  (3 seturi, 10 repetari)"
+        android:textColor="@color/blackv"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/asda2"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
+        android:text="Video cu executii:"
+        android:textSize="20sp"
+        android:layout_marginTop="850dp"
+        android:textColor="@color/blackv"
+        />
+    <TextView
+        android:id="@+id/click2"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:text="@string/click2"
+        android:textSize="20sp"
+        android:layout_toEndOf="@+id/asda2"
+        android:layout_toRightOf="@+id/asda2"
+        android:layout_marginTop="850dp"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:text="Ziua 3:"
+        android:textSize="30sp"
+        android:layout_marginTop="880dp"
+        android:textColor="@color/blackv"
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="920dp"
+        android:text="-Genuflexiuni\n  (4 seturi, 10 repetari)\n-Deadlift\n  (4 seturi, 10 repetari)\n-Presa\n  (4 seturi, 10 repetari)\n-Extensii pentru cvadriceps\n  (3 seturi, 12 repetari)\n-Ridicari pe varfuri\n  (4 seturi, 15 repetari)\n-Impins din varfuri la presa\n  (3 seturi, 20 repetari)"
+        android:textColor="@color/blackv"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/asda3"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:text="Video cu executii:"
+        android:textSize="20sp"
+        android:layout_marginTop="1220dp"
+        android:textColor="@color/blackv"
+        />
+    <TextView
+        android:id="@+id/click3"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
+        android:text="@string/click3"
+        android:textSize="20sp"
+        android:layout_toEndOf="@+id/asda3"
+        android:layout_toRightOf="@+id/asda3"
+        android:layout_marginTop="1220dp"
+
+        />
+
+
+</RelativeLayout>
+
+</ScrollView>
