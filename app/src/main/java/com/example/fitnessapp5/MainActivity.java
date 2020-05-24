@@ -20,8 +20,8 @@ import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.Toast;
-
-import com.firebase.ui.auth.AuthUI;
+import com.google.android.material.navigation.NavigationView;
+/*import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -31,7 +31,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
-
+*/
 import java.util.Arrays;
 import java.util.List;
 
@@ -39,10 +39,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private DrawerLayout drawer;
 
     private static final int My_Request_code=7117;
-    List<AuthUI.IdpConfig> providers;
+    //List<AuthUI.IdpConfig> providers;
     Button btn_sign_out;
-    private FirebaseAuth firebaseAuth;
-    private FirebaseUser user;
+ //   private FirebaseAuth firebaseAuth;
+   // private FirebaseUser user;
     Button b_light,b_dark;
     Switch switchdarkmode;
 
@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        firebaseAuth = FirebaseAuth.getInstance();
-        user = firebaseAuth.getCurrentUser();
+       // firebaseAuth = FirebaseAuth.getInstance();
+      //  user = firebaseAuth.getCurrentUser();
 
 
 
