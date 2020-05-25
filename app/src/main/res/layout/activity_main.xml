@@ -21,7 +21,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/com_facebook_messenger_blue"
+            android:background="@color/toulbarc"
             android:elevation="4dp"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
@@ -33,18 +33,26 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="Sign out"
+                android:visibility="gone"
+                android:id="@+id/signoutb"
+                android:layout_marginLeft="40dp"
+
+                />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
-                android:layout_marginTop="250dp"
-                android:text="@string/text_info"
-                android:textSize="40sp"
-                android:textColor="@color/colorText"
+                android:visibility="gone"
+                android:text="aaaaaaaaa"
                 />
 
 
-             />
+
+
         </FrameLayout>
 
     </LinearLayout>
@@ -57,7 +65,7 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_heder"
-        app:menu="@menu/fitmenu"
+        app:menu="@menu/fitmenu2"
 
 
         />

@@ -1,31 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <group android:checkableBehavior="single">
+
         <item android:id="@+id/nav_profil"
+
             android:icon="@drawable/ic_profil"
+
             android:title="Profil" />
+
         <item android:id="@+id/nav_gantera"
+
             android:icon="@drawable/ic_gantera"
+
             android:title="Program Antrenament" />
+
         <item android:id="@+id/nav_alimente"
+
             android:icon="@drawable/ic_alimente"
+
             android:title="Program Alimentar" />
+
         <item android:id="@+id/nav_calorii"
+
             android:icon="@drawable/ic_calorii"
+
             android:title="Calculator Calorii" />
+
     </group>
 
+
+
     <item android:title="Communicate">
+
         <menu>
+
             <item
+
                 android:id="@+id/nav_share"
+
                 android:icon="@drawable/ic_share"
+
                 android:title="Share" />
+
             <item
+
                 android:id="@+id/nav_send"
+
                 android:icon="@drawable/ic_send"
+
                 android:title="Send" />
+
         </menu>
+
     </item>
 </menu>

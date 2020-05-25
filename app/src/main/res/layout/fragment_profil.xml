@@ -9,14 +9,31 @@
         android:layout_height="wrap_content"
         android:text="Profil utilizator"
         android:textSize="30sp"
+        android:id="@+id/profileTitle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"/>
     <Button
-        android:id="@+id/buton_signout"
+        android:id="@+id/buton_signout22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:enabled="false"
         android:text="SignOut"
         android:layout_centerInParent="true"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profileTitle"
+        android:id="@+id/userName"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/profileImage"
+        android:layout_below="@id/userName"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_user"
+        />
+
 </RelativeLayout>
